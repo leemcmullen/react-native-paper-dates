@@ -48,7 +48,7 @@ function CalendarHeader({
             ]}
           >
             <IconButton
-              icon="chevron-left"
+              icon="chevron-back-circle"
               accessibilityLabel={getTranslation(locale, 'previous')}
               onPress={onPrev}
               // RN types bug
@@ -64,7 +64,7 @@ function CalendarHeader({
             ]}
           >
             <IconButton
-              icon="chevron-right"
+              icon="chevron-forward-circle"
               accessibilityLabel={getTranslation(locale, 'next')}
               onPress={onNext}
               // RN types bug
